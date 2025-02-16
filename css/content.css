@@ -1,0 +1,18 @@
+.content-main{
+    justify-self: center;
+}
+
+.content{
+    max-width: 700px;
+}
+@media screen and (min-width:3861px){
+    .content{
+        font-size:1.3rem;
+    }
+}
+@media screen and (max-width:768px){
+    
+    .content{
+        font-size:0.875rem;
+    }
+}
