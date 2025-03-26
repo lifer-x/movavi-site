@@ -62,6 +62,6 @@ nav{
 }
 @media screen and (min-width:4201px){
     .content-main{
-        grid-template-columns:repeat(1,1fr);
+        grid-template-columns:repeat(9,1fr);
     }
 }

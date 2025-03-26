@@ -29,11 +29,14 @@ nav{
 
 footer{
     height: 1vh;
-    font-size: 1vh;
 
+}
+footer img{
+    height:1vh;
 }
 footer *{
     display:inline-block;
+    font-size:max(1vh,12px);
 }
 
 .go-up{
@@ -51,7 +54,7 @@ footer *{
 @media screen and (max-width:768px){
     nav{
         justify-content: start;
-        width:25vw;
+        width:50vw;
         font-size:0.875rem;
     }
 }
